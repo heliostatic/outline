@@ -6,7 +6,7 @@ import { Editor } from 'slate-react';
 import { Block } from 'slate';
 import { List } from 'immutable';
 import { color } from 'shared/styles/constants';
-import headingToSlug from '../headingToSlug';
+import { headingToSlug } from '../utils';
 import styled from 'styled-components';
 
 type Props = {

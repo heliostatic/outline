@@ -3,7 +3,7 @@ import React from 'react';
 import { Document } from 'slate';
 import type { SlateNodeProps } from '../types';
 import styled from 'styled-components';
-import headingToSlug from '../headingToSlug';
+import { headingToSlug } from '../utils';
 import Placeholder from './Placeholder';
 
 type Props = SlateNodeProps & {
